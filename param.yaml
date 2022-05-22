@@ -1,0 +1,34 @@
+GCN:
+  cuda: True
+  seed: 42
+  lr: 0.01
+  weight_decay: 0.0005
+  hidden: 16
+  dropout: 0.8
+  epoches: 2000
+  epoch_base_model: 2000
+  fastmode: False
+  nz: 32
+  ns: 32
+  alpha: 0.2
+  KL_loss: 0.05
+  BCE_loss: 0.05
+  z_loss: 0.01
+
+
+GAT:
+  cuda: True
+  seed: 72
+  lr: 0.005
+  weight_decay: 0.0005
+  hidden: 8
+  dropout: 0.7
+  epoches: 1000
+  epoch_base_model: 2000
+  fastmode: False
+  nz: 16
+  ns: 8
+  alpha: 0.2
+  KL_loss: 0.01
+  BCE_loss: 0.01
+  z_loss: 0.05
